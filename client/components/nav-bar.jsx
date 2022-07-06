@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-// import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+
 export default function NavBar() {
   function useWindowSize() {
     // Initialize state with undefined width/height so server and client renders match
@@ -43,7 +44,8 @@ export default function NavBar() {
         <div className="col">
           <h1>Logo</h1>
         </div>
-        {useWindowSize().width > 768
+        {
+        useWindowSize().width > 991
           ? (
         <div className="nav col d-flex justify-content-between align-items-center">
           <a href="#" className="nav-links">Home</a>
@@ -54,16 +56,16 @@ export default function NavBar() {
         </div>
             )
           : (
-          <div>
+          <div className="nav col d-flex justify-content-end align-items-center">
             <Button
               id="basic-button"
               aria-controls={open ? 'basic-menu' : undefined}
               aria-haspopup="true"
               aria-expanded={open ? 'true' : undefined}
               onClick={handleClick}
-              style={{ color: '#88ffb7' }}
+              style={{ color: 'black' }}
             >
-              Menu
+              <i className="bi bi-list dropdown"></i>
             </Button>
             <Menu
               id="basic-menu"
