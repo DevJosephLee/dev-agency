@@ -43,7 +43,8 @@ export default function NavBar() {
         <div className="col">
           <h1>Logo</h1>
         </div>
-        {useWindowSize().width > 768
+        {
+        useWindowSize().width > 991
           ? (
         <div className="nav col d-flex justify-content-between align-items-center">
           <a href="#" className="nav-links">Home</a>
