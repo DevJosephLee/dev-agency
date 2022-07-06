@@ -55,7 +55,7 @@ export default function NavBar() {
         </div>
             )
           : (
-          <div>
+          <div className="nav col d-flex justify-content-end align-items-center">
             <Button
               id="basic-button"
               aria-controls={open ? 'basic-menu' : undefined}
