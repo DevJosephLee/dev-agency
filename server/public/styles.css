@@ -6,3 +6,20 @@
 .btn-flat {
   background-color: #88ffb7 !important;
 }
+
+.block {
+  display: block;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.border-top {
+  border-top: 1px solid lightgray;
+}
