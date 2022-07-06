@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 // import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+
 export default function NavBar() {
   function useWindowSize() {
     // Initialize state with undefined width/height so server and client renders match
@@ -62,9 +64,9 @@ export default function NavBar() {
               aria-haspopup="true"
               aria-expanded={open ? 'true' : undefined}
               onClick={handleClick}
-              style={{ color: '#88ffb7' }}
+              style={{ color: 'black' }}
             >
-              Menu
+              <i className="bi bi-list"></i>
             </Button>
             <Menu
               id="basic-menu"
