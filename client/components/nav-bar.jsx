@@ -66,7 +66,7 @@ export default function NavBar() {
               onClick={handleClick}
               style={{ color: 'black' }}
             >
-              <i className="bi bi-list"></i>
+              <i className="bi bi-list dropdown"></i>
             </Button>
             <Menu
               id="basic-menu"
