@@ -18,6 +18,22 @@
 
 .round {
   border-radius: 23px;
+
+.block {
+  display: block;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.border-top {
+  border-top: 1px solid lightgray;
 }
 
 .dropdown {
