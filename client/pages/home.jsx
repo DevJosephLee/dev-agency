@@ -31,9 +31,11 @@ export default function Home(props) {
     }, []); // Empty array ensures that effect is only run on mount
     return windowSize;
   }
+
   return (
     <div>
       <NavBar />
+      {/* hero section */}
       <div className="position-relative">
         <div className={useWindowSize().width > 991 ? 'container d-flex align-items-center' : 'container'}>
           <div className="col">
@@ -51,6 +53,44 @@ export default function Home(props) {
         </div>
       </div>
       <HomePageMid />
+      {/* recent projects section */}
+      <div className="bg-f5 p-5">
+        <div className="container d-flex justify-content-center">
+          <div className="text-center w-50">
+            <h4>Our Recent Projects</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum impedit adipisci porro et soluta repellendus.</p>
+          </div>
+        </div>
+        <div className={useWindowSize().width > 991 ? 'container d-flex justify-content-center' : 'container'}>
+          <div className="project-card shadow">
+            <a href="#" className="d-flex justify-content-center">
+              <img className="project-image" src="../../images/placeholder-image.png" alt="placeholder"></img>
+            </a>
+            <div className="container text-center p-5">
+              <h5 className="mb-5">Project #1</h5>
+              <a className="btn-round" href="#">Explore Project</a>
+            </div>
+          </div>
+          <div className="project-card shadow">
+            <a href="#" className="d-flex justify-content-center">
+              <img className="project-image" src="../../images/placeholder-image.png" alt="placeholder"></img>
+            </a>
+            <div className="container text-center p-5">
+              <h5 className="mb-5">Project #2</h5>
+              <a className="btn-round" href="#">Explore Project</a>
+            </div>
+          </div>
+          <div className="project-card shadow">
+            <a href="#" className="d-flex justify-content-center">
+              <img className="project-image" src="../../images/placeholder-image.png" alt="placeholder"></img>
+            </a>
+            <div className="container text-center p-5">
+              <h5 className="mb-5">Project #3</h5>
+              <a className="btn-round" href="#">Explore Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
