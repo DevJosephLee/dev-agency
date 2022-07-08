@@ -52,16 +52,63 @@
   filter: drop-shadow(0 0 0.75rem lightblue);
 }
 
-.bg-f5 {
-  background-color: #f5f5f5;
+.relative {
+  position: relative;
 }
 
-.project-image {
-  height: 250px;
+.pt-1em {
+  padding-top: 1em;
 }
 
-.project-card {
-  border-radius: 10px;
-  margin: 15px;
-  overflow: hidden;
+.btn-red {
+  background-color: #dc000021 !important;
+  color: #dc0000 !important;
+  border: none !important;
+}
+
+.btn-purple {
+  background-color: #b000dc1f !important;
+  color: #b000dc !important;
+  border: none !important;
+}
+
+.btn-blue {
+  background-color: #0058dc1f !important;
+  color: #0058dc !important;
+  border: none !important;
+}
+
+.card-shadow {
+  box-shadow: 0 1px 15px -10px #000;
+  border: none !important;
+}
+
+.font-200 {
+  font-weight: 200;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+
+  .bg-f5 {
+    background-color: #f5f5f5;
+  }
+
+  .project-image {
+    height: 250px;
+  }
+
+  .project-card {
+    border-radius: 10px;
+    margin: 15px;
+    overflow: hidden;
+  }
 }

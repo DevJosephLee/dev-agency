@@ -3,6 +3,7 @@ import NavBar from '../components/nav-bar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Button from '@mui/material/Button';
 import Footer from '../components/footer';
+import HomePageMid from '../components/home-mid';
 
 export default function Home(props) {
   function useWindowSize() {
@@ -51,6 +52,7 @@ export default function Home(props) {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#EEFDEE" fillOpacity="1" d="M0,288L48,282.7C96,277,192,267,288,234.7C384,203,480,149,576,160C672,171,768,245,864,240C960,235,1056,149,1152,112C1248,75,1344,85,1392,90.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
         </div>
       </div>
+      <HomePageMid />
       {/* recent projects section */}
       <div className="bg-f5 p-5">
         <div className="container d-flex justify-content-center">

@@ -8,7 +8,7 @@ const StyledDiv = styled.div`
   color: white;
   padding: 25px 0;
 `;
-const Footer = () => {
+export default function Footer() {
   function useWindowSize() {
     // Initialize state with undefined width/height so server and client renders match
     // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
@@ -61,6 +61,4 @@ const Footer = () => {
     </div>
    </StyledDiv>
   );
-};
-
-export default Footer;
+}
