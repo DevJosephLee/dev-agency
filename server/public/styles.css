@@ -7,6 +7,19 @@
   background-color: #88ffb7 !important;
 }
 
+.btn-round {
+  background-color: #88ffb7;
+  border: none;
+  padding: 1rem;
+  border-radius: 23px;
+  text-decoration: none;
+  color: black;
+}
+
+.round {
+  border-radius: 23px;
+}
+
 .block {
   display: block;
 }
@@ -26,4 +39,62 @@
 
 .dropdown {
   font-size: 2.5rem;
+}
+
+.fixed {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.dropshadow {
+  filter: drop-shadow(0 0 0.75rem lightblue);
+}
+
+.relative {
+  position: relative;
+}
+
+.pt-1em {
+  padding-top: 1em;
+}
+
+.btn-red {
+  background-color: #dc000021 !important;
+  color: #dc0000 !important;
+  border: none !important;
+}
+
+.btn-purple {
+  background-color: #b000dc1f !important;
+  color: #b000dc !important;
+  border: none !important;
+}
+
+.btn-blue {
+  background-color: #0058dc1f !important;
+  color: #0058dc !important;
+  border: none !important;
+}
+
+.card-shadow {
+  box-shadow: 0 1px 15px -10px #000;
+  border: none !important;
+}
+
+.font-200 {
+  font-weight: 200;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  width: 100%;
 }

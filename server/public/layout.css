@@ -1,0 +1,26 @@
+.absolute-green-box {
+  position: absolute;
+  width: 20%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  .absolute-green-box {
+    top: -30px;
+    right: 116px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .absolute-green-box {
+    top: -36px;
+    right: 160px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .absolute-green-box {
+    top: -36px;
+    right: 230px;
+  }
+}

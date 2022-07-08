@@ -52,7 +52,7 @@ export default function NavBar() {
           <a href="#" className="nav-links">About Us</a>
           <a href="#" className="nav-links">Services</a>
           <a href="#" className="nav-links">News</a>
-          <Button className='btn-flat' variant="flat" href="#">Contact Us</Button>
+          <Button className="btn-flat" variant="flat" href="#">Contact Us</Button>
         </div>
             )
           : (
