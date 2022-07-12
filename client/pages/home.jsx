@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from '../components/nav-bar';
-import EmailSub from '../components/email-sub';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Button from '@mui/material/Button';
 import Footer from '../components/footer';
@@ -98,10 +97,7 @@ export default function Home(props) {
           </div>
         </div>
       </div>
-      <EmailSub />
       <Footer />
     </div>
   );
 }
-
-// { useWindowSize().width > 991 ? 'container d-flex justify-content-center' : 'container' }
