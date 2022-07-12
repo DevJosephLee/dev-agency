@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/footer';
 import HomePageMid from '../components/home-mid';
 import HomePageMid2 from '../components/home-mid-2';
+import HomePageMid3 from '../components/home-mid-3';
 
 export default function Home(props) {
   function useWindowSize() {
@@ -54,6 +55,7 @@ export default function Home(props) {
       </div>
       <HomePageMid />
       <HomePageMid2 />
+      <HomePageMid3 />
       <Footer />
     </div>
   );
