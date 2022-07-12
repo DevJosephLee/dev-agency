@@ -36,7 +36,6 @@ export default function Home(props) {
   return (
     <div>
       <NavBar />
-      {/* hero section */}
       <div className="position-relative">
         <div className={useWindowSize().width > 991 ? 'container d-flex align-items-center' : 'container'}>
           <div className="col">
