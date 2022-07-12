@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from '../components/nav-bar';
-import EmailSub from '../components/email-sub';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Button from '@mui/material/Button';
 import Footer from '../components/footer';
 import HomePageMid from '../components/home-mid';
+import HomePageMid2 from '../components/home-mid-2';
 
 export default function Home(props) {
   function useWindowSize() {
@@ -36,7 +36,6 @@ export default function Home(props) {
   return (
     <div>
       <NavBar />
-      {/* hero section */}
       <div className="position-relative">
         <div className={useWindowSize().width > 991 ? 'container d-flex align-items-center' : 'container'}>
           <div className="col">
@@ -54,54 +53,8 @@ export default function Home(props) {
         </div>
       </div>
       <HomePageMid />
-      {/* recent projects section */}
-      <div className="bg-f5 p-5">
-        <div className="container d-flex justify-content-center">
-          <div className="text-center w-50">
-            <h4>Our Recent Projects</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque harum impedit adipisci porro et soluta repellendus.</p>
-          </div>
-        </div>
-        <div className="container">
-          <div className="project-card shadow d-flex align-items-center">
-            <div className="col">
-              <a href="#" className="d-flex justify-content-center">
-                <img className="project-image" src="../../images/placeholder-image.png" alt="placeholder"></img>
-              </a>
-            </div>
-            <div className="col container text-center p-5">
-              <h5 className="mb-5">Project #1</h5>
-              <a className="btn-round" href="#">Explore Project</a>
-            </div>
-          </div>
-          <div className="project-card shadow d-flex align-items-center">
-            <div className="col">
-              <a href="#" className="d-flex justify-content-center">
-                <img className="project-image" src="../../images/placeholder-image.png" alt="placeholder"></img>
-              </a>
-            </div>
-            <div className="col container text-center p-5">
-              <h5 className="mb-5">Project #1</h5>
-              <a className="btn-round" href="#">Explore Project</a>
-            </div>
-          </div>
-          <div className="project-card shadow d-flex align-items-center">
-            <div className="col">
-              <a href="#" className="d-flex justify-content-center">
-                <img className="project-image" src="../../images/placeholder-image.png" alt="placeholder"></img>
-              </a>
-            </div>
-            <div className="col container text-center p-5">
-              <h5 className="mb-5">Project #1</h5>
-              <a className="btn-round" href="#">Explore Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <EmailSub />
+      <HomePageMid2 />
       <Footer />
     </div>
   );
 }
-
-// { useWindowSize().width > 991 ? 'container d-flex justify-content-center' : 'container' }
