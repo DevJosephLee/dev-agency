@@ -41,7 +41,7 @@ export default function CustReviews() {
         <Carousel variant="dark">
           <Carousel.Item>
             <div className="container d-flex p-5">
-              <div className="review-cards p-3">
+              <div className="review-cards p-3 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -57,7 +57,7 @@ export default function CustReviews() {
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
               </div>
-              <div className="review-cards p-3 ms-5">
+              <div className="review-cards p-3 ms-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -73,7 +73,7 @@ export default function CustReviews() {
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
               </div>
-              <div className="review-cards p-3 ms-5">
+              <div className="review-cards p-3 ms-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -93,7 +93,7 @@ export default function CustReviews() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="container d-flex p-5">
-              <div className="review-cards p-3">
+              <div className="review-cards p-3 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -109,7 +109,7 @@ export default function CustReviews() {
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
               </div>
-              <div className="review-cards p-3 ms-5">
+              <div className="review-cards p-3 ms-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -125,7 +125,7 @@ export default function CustReviews() {
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
               </div>
-              <div className="review-cards p-3 ms-5">
+              <div className="review-cards p-3 ms-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -149,7 +149,7 @@ export default function CustReviews() {
         <Carousel variant="dark">
           <Carousel.Item>
             <div className="container d-flex p-5">
-              <div className="review-cards-mobile p-3">
+              <div className="review-cards-mobile p-3 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -165,43 +165,7 @@ export default function CustReviews() {
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
               </div>
-              <div className="review-cards-mobile p-3 ms-5">
-                <div className="d-flex align-items-center">
-                  <div className="w-25 m-3">
-                    <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
-                  </div>
-                  <div className="w-50">
-                    <h5>Vlezh Robert</h5>
-                    <p>Warsaw, Poland</p>
-                  </div>
-                  <div className="w-25 d-flex">
-                    <p className="me-2">4.5</p>
-                    <i className="bi bi-star-fill star"></i>
-                  </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
-              </div>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className="container d-flex p-5">
-              <div className="review-cards-mobile p-3">
-                <div className="d-flex align-items-center">
-                  <div className="w-25 m-3">
-                    <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
-                  </div>
-                  <div className="w-50">
-                    <h5>Vlezh Robert</h5>
-                    <p>Warsaw, Poland</p>
-                  </div>
-                  <div className="w-25 d-flex">
-                    <p className="me-2">4.5</p>
-                    <i className="bi bi-star-fill star"></i>
-                  </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
-              </div>
-              <div className="review-cards-mobile p-3 ms-5">
+              <div className="review-cards-mobile p-3 ms-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -221,7 +185,7 @@ export default function CustReviews() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="container d-flex p-5">
-              <div className="review-cards-mobile p-3">
+              <div className="review-cards-mobile p-3 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -237,7 +201,43 @@ export default function CustReviews() {
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
               </div>
-              <div className="review-cards-mobile p-3 ms-5">
+              <div className="review-cards-mobile p-3 ms-5 shadow">
+                <div className="d-flex align-items-center">
+                  <div className="w-25 m-3">
+                    <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
+                  </div>
+                  <div className="w-50">
+                    <h5>Vlezh Robert</h5>
+                    <p>Warsaw, Poland</p>
+                  </div>
+                  <div className="w-25 d-flex">
+                    <p className="me-2">4.5</p>
+                    <i className="bi bi-star-fill star"></i>
+                  </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="container d-flex p-5">
+              <div className="review-cards-mobile p-3 shadow">
+                <div className="d-flex align-items-center">
+                  <div className="w-25 m-3">
+                    <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
+                  </div>
+                  <div className="w-50">
+                    <h5>Vlezh Robert</h5>
+                    <p>Warsaw, Poland</p>
+                  </div>
+                  <div className="w-25 d-flex">
+                    <p className="me-2">4.5</p>
+                    <i className="bi bi-star-fill star"></i>
+                  </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas earum quos deleniti id, quaerat autem voluptatibus nesciunt similique a! Deserunt repudiandae doloribus eaque reprehenderit magni. Officia, saepe. Amet, delectus!</p>
+              </div>
+              <div className="review-cards-mobile p-3 ms-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -261,7 +261,7 @@ export default function CustReviews() {
         <Carousel variant="dark">
           <Carousel.Item>
             <div className="d-flex justify-content-center">
-              <div className="review-cards-mobile p-3 mb-5">
+              <div className="review-cards-mobile p-3 mb-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -281,7 +281,7 @@ export default function CustReviews() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="d-flex justify-content-center">
-              <div className="review-cards-mobile p-3 mb-5">
+              <div className="review-cards-mobile p-3 mb-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
@@ -301,7 +301,7 @@ export default function CustReviews() {
           </Carousel.Item>
           <Carousel.Item>
             <div className="d-flex justify-content-center">
-              <div className="review-cards-mobile p-3 mb-5">
+              <div className="review-cards-mobile p-3 mb-5 shadow">
                 <div className="d-flex align-items-center">
                   <div className="w-25 m-3">
                     <img src="../../images/test-face-image.jpeg" className="review-face-photo"></img>
