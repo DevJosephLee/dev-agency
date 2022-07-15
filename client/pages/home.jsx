@@ -6,6 +6,7 @@ import Footer from '../components/footer';
 import HomePageMid from '../components/home-mid';
 import HomePageMid2 from '../components/home-mid-2';
 import HomePageMid3 from '../components/home-mid-3';
+import CustReviews from '../components/cust-reviews';
 
 export default function Home(props) {
   function useWindowSize() {
@@ -56,6 +57,7 @@ export default function Home(props) {
       <HomePageMid />
       <HomePageMid2 />
       <HomePageMid3 />
+      <CustReviews />
       <Footer />
     </div>
   );
